@@ -2,6 +2,9 @@
 
 This set of scripts is a command line tool to upload one or multiple MySQL files to a MySQL Server.
 
+
+![screencast](https://github.com/VanDerLars/MySQL-Upload-multiple-Dumps/blob/main/screenshot.png)
+
 ## Dependencies
 
 **You need to have the mysql cli installed:**
