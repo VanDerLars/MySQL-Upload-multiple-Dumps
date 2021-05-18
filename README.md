@@ -48,6 +48,7 @@ The script `MySQL_upload_all.sh` goes through all files within a specific direct
 ## Hint for creating dumps
 
 If you want to upload MySQL dumps, than I recomment to use this options for the `mysqldump` or the `mysqldump-secure` CLI:
+
 `--opt --default-character-set=utf8 --hex-blob --complete-insert --extended-insert --compress --skip-triggers --routines --set-gtid-purged=OFF --column-statistics=0`
 
 -> Triggers always makes problems, I skip them here and create them later manually or over other scripts. I recommend this to you as well.
